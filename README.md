@@ -4,7 +4,7 @@ El objetivo de esta práctica es poner en práctica las properties (props) como 
 
 Crearemos una pequeña aplicación como la siguiente:
 
-[Foto](./doc/picture1.png)
+![Foto](./doc/picture1.png)
 
 Los contadores de "Letras" y "Palabras" se actualizarán automáticamente a medida que introducimos el texto en el `<textarea>`.
 
