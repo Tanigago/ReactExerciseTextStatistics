@@ -1,8 +1,11 @@
-function CountLetter(props) {
-
+function CountLetter({text}}) {
+    
+    const nLetter = text.split(" ").filter(
+        string => string!== ""
+    ).length
     return (
 
-        <p>Total de letras: {props.text.length}</p>
+        <p>Total de letras: {text.length}</p>
         
     );
 }
